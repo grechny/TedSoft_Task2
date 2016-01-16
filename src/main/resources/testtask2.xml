@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="testtask2.xsd">
+    <command>
+        <name>ps</name>
+        <class>by.grechny.ProcessList</class>
+    </command>
+    <command>
+        <name>ls</name>
+        <class>by.grechny.FilesList</class>
+    </command>
+    <command>
+        <name>pwd</name>
+        <class>by.grechny.CurrentPath</class>
+    </command>
+</commands>
